@@ -3,7 +3,7 @@ jobs:
 run-test-suite:
 docker:
 - image: circleci/node:10.20.0
-working_directory: ~/project
+working_directory: ~/
 steps:
 - checkout
 - run:
@@ -13,7 +13,7 @@ command: npm install --no-progress --non-interactive --silent --pure-lockfile
 name: Run test suite
 command: npm test_ci
 - persist_to_workspace:
-root: ~/project
+root: ~/
 paths:
 - .
 workflows:
