@@ -1,14 +1,14 @@
-version: 2.1
+version: 1
 jobs:
 run-test-suite:
 docker:
-- image: circleci/node:10.20.0
+- image: circleci/node:10.16.3
 working_directory: ~/
 steps:
 - checkout
 - run:
 name: Fetch dependencies
-command: npm install --no-progress --non-interactive --silent --pure-lockfile
+command: npm install
 - run:
 name: Run test suite
 command: npm test_ci
