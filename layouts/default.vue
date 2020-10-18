@@ -1,3 +1,5 @@
 <template>
-  <Nuxt />
+  <v-app color="white">
+    <nuxt />
+  </v-app>
 </template>

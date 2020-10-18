@@ -1,35 +1,44 @@
 {
-  "name": "travel-any-time",
+  "name": "annaserba",
   "version": "1.0.0",
+  "description": "Web developer and entrepreneur",
+  "author": "annaserba",
   "private": true,
   "engines": {
-    "node": "^10.16.3",
-    "npm":"6.9.0",
-    "yarn":"1.22.10"
+    "node": "^12.0.2"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint": "yarn lint:js",
-    "heroku-postbuild": "npm run build"
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "deploy": "push-dir --dir = dist --branch = gh-pages --cleanup"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
-    "core-js": "^3.6.5",
-    "iview": "^3.5.4",
-    "nuxt": "^2.14.6"
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/sitemap": "^2.3.2",
+    "@nuxtjs/yandex-metrika": "^1.0.3",
+    "babel-runtime": "^6.26.0",
+    "contentful": "^7.14.4",
+    "nuxt": "^2.12.2",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-i18n": "^6.12.2",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^3.1.0",
-    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/eslint-module": "^1.2.0",
+    "@nuxtjs/vuetify": "^1.11.2",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.10.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.2"
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": "^0.5.2"
   }
 }
