@@ -6,7 +6,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: 'Anna Serba',
+    titleTemplate: 'Sevastopol Travel any time',
     title: '',
     meta: [
       { charset: 'utf-8' },
