@@ -9,14 +9,3 @@ steps:
 - run:
 name: Fetch dependencies
 command: npm install
-- run:
-name: Run test suite
-command: npm test_ci
-- persist_to_workspace:
-root: ~/
-paths:
-- .
-workflows:
-test-and-deploy:
-jobs:
-    - run-test-suite
