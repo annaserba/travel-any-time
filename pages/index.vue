@@ -1,12 +1,15 @@
 <template>
-  <div class="container">
-    <script type="text/javascript" charset="utf-8" src="https://stells.info/assets/js/partner.fire.js"></script>
-    <div class="s-partnership" style="display:none;">PTk2Dhn5I2sa1hrUeVs%2BojrsFTZskGiEppcwGB7hQag%3D</div>
-  </div>
+  <iframe
+    class="container"
+    src="https://stells.info/ksb-gate/partnership/inner/?_io=PY3BCoMwEAX_JueIUvCw3xJi8moXdDfsphb_vtLSHmcOM_1soJJ73nQNzh2euNIQp_kWGsxVksFhB8iQt9D1aXmFlPPvRQXBH_pKd5YKo-FLB1foD4ruO7uzymXaVfh8xjjHMfS8UHwD"
+  />
 </template>
 <style scoped>
 .container {
-  max-width: 1200px;
   margin: 0 auto;
+  width:100%;
+  height:100vh;
+  border: none;
+  padding: 0;
 }
 </style>
